@@ -54,7 +54,7 @@ category.
 duckdemo-download path/to/download
 ```
 
-## Building a summary of product reviews
+## Example 1 - Building a summary of product reviews
 
 In our first example, we create a database describing all the reviews for each
 product.
@@ -87,3 +87,8 @@ following:
 duckdb product_summaries.db
 ```
 
+## Example 2 - Finding prolific reviewers with Jupyter and Pandas
+
+```
+ DATA_DIR=/path/to/data/parquet jupyter-lab
+```

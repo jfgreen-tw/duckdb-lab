@@ -10,7 +10,6 @@ setup(
         "console_scripts": [
             "duckdemo-download=duckdemo.download:main",
             "duckdemo-products=duckdemo.products:main",
-            "duckdemo-reviewers=duckdemo.reviewers:main",
         ]
     },
 )

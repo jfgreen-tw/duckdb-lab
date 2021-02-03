@@ -38,7 +38,7 @@ do
         rm -rf build/ dist/ .pytest_cache/
         ;;
     devenv)
-        tox --recreate --devenv venv
+        tox --recreate --devenv venv -e dev
         ;;
     *)
         echo "Invalid command: '${command}'"
