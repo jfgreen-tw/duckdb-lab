@@ -1,0 +1,47 @@
+# Product categories and their download sizes
+
+| Product Category         | Size |
+| ------------------------ | ----- |
+| Apparel                  | 1.2G  |
+| Automotive               | 906M  |
+| Baby                     | 496M  |
+| Beauty                   | 1.3G  |
+| Books                    | 10G   |
+| Camera                   | 626M  |
+| Digital_Ebook_Purchase   | 5.9G  |
+| Digital_Music_Purchase   | 393M  |
+| Digital_Software         | 32M   |
+| Digital_Video_Download   | 858M  |
+| Digital_Video_Games      | 42M   |
+| Electronics              | 1.0G  |
+| Furniture                | 205M  |
+| Gift_Card                | 17M   |
+| Grocery                  | 556M  |
+| Health_&_Personal_Care   | 1.4G  |
+| Home                     | 1.5G  |
+| Home_Entertainment       | 272M  |
+| Home_Improvement         | 802M  |
+| Jewelry                  | 343M  |
+| Kitchen                  | 1.3G  |
+| Lawn_and_Garden          | 802M  |
+| Luggage                  | 82M   |
+| Major_Appliances         | 40M   |
+| Mobile_Apps              | 1018M |
+| Mobile_Electronics       | 36M   |
+| Music                    | 2.8G  |
+| Musical_Instruments      | 271M  |
+| Office_Products          | 802M  |
+| Outdoors                 | 622M  |
+| PC                       | 2.2G  |
+| Personal_Care_Appliances | 30M   |
+| Pet_Products             | 802M  |
+| Shoes                    | 1002M |
+| Software                 | 140M  |
+| Sports                   | 1.3G  |
+| Tools                    | 458M  |
+| Toys                     | 1.3G  |
+| Video                    | 222M  |
+| Video_DVD                | 3.0G  |
+| Video_Games              | 802M  |
+| Watches                  | 230M  |
+| Wireless                 | 2.4G  |

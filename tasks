@@ -1,0 +1,50 @@
+#!/bin/bash
+
+set -Eeo pipefail
+
+for command in "$@"
+do
+  echo "--- ${command} ---"
+  case "${command}" in
+    test)
+        tox -e py38
+        ;;
+    format)
+        tox -e format
+        ;;
+    check-format)
+        tox -e check-format
+        ;;
+    lint)
+        tox -e flake8
+        tox -e bandit
+        ;;
+    typecheck)
+        tox -e mypy
+        ;;
+    check-deps)
+        tox -e check-deps
+        ;;
+    validate)
+        ./tasks check-format typecheck lint test
+        ;;
+    clean)
+        find ./tests -type f -name "*.pyc" -delete
+        find ./tests -type d -name "__pycache__" -delete
+        find ./src -type f -name "*.pyc" -delete
+        find ./src -type d -name "__pycache__" -delete
+        find ./src -type f -path "*.egg-info*" -delete
+        find ./src -type d -path "*.egg-info" -delete
+        rm -rf build/ dist/ .pytest_cache/
+        ;;
+    devenv)
+        tox --recreate --devenv venv
+        ;;
+    *)
+        echo "Invalid command: '${command}'"
+        exit 1
+        ;;
+  esac
+done
+
+set +e

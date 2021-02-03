@@ -1,0 +1,10 @@
+.idea
+.tox
+venv
+
+build/
+dist/
+venv/
+.mypy_cache/
+*.pyc
+duckdb_demo.egg-info
